@@ -1,0 +1,116 @@
+@media (max-width:760px) {
+   body{
+      overflow-x: hidden;
+   }
+   .nav a{
+      color: red;
+   }
+   .nav ul li{
+      padding: 9px;
+      font-size: 15px;
+      color: red;
+      width: 60px;
+      background-color: rgba(63, 63, 63, 0.26);
+      margin: 10px;
+      border-radius: 200px;
+      text-align: center;
+   }  
+   .nav ul{
+      flex-direction: column;
+   }
+   .nav{
+      margin-left: -3vw;
+   }
+   .mars{
+      padding-top: 40px;
+   }
+   .ground{
+      position: relative;
+      width: 100vw;
+   }
+   .rock,.rock2,.rock3,.rock4{
+      width: 20px;
+      height:20px;
+   }
+   .rock2{
+      width: 30px;
+      height: 30px;
+   }
+   .rock3{
+      width: 35px;
+      height: 35px;
+   }
+   .ground2{
+     width:60vw; 
+     left: 50vw;
+     top:-10vh;
+   }
+   .earth
+   {
+      left:20vw;
+      height: 200px;
+      width: 200px;  
+   }
+   .info{
+      margin-top: 20px;
+      width: 50vw;
+      /* left: -10vw; */
+      font-size: 15px;
+   }
+}
+
+@media (max-width:600px) and (min-width:200px) {
+   body{
+      overflow: hidden;
+   }
+   .earth
+   {
+      left:10vw;
+      height: 150px;
+      width: 150px;  
+   }
+   .ground{
+      top:210vh;
+      width: 100vw;
+   }
+   .ground2{
+   left: 75vw;
+   width: 50vw;
+   top:-150vh;
+   margin: 0;
+   }
+   .ground{
+      width: 90vw;
+      top:-50vh;
+   }
+   .info{
+      left: -10vw;
+   }
+}
+
+@media (min-width:760px) and (max-width:1500px) {
+   body{
+      overflow: hidden;
+   }
+   .ground2{
+      top: -10vh;
+      left: 80vw;
+   }
+   .ground{
+      width: 100vw;
+   }
+   .info{
+      width: 60vw;
+   }
+   .earth{
+      left:30vw;
+   }
+}
+@media (max-width:280px) {
+   .ground2{
+      left: 90vw;
+   }
+   .ground{
+      width: 100vw;
+   }
+}
